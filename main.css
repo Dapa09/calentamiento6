@@ -1,0 +1,61 @@
+body, *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+ display: flex;
+ background-color: rgb(175, 123, 226);
+ padding: 10px 0;
+}
+header p{
+    margin: 0 35px;
+    color: seashell;
+    font-size: xx-large;
+}
+input {
+    width: 150px;
+    height: 20px;
+    margin-right: -4.5px;
+    margin-top: 3px;
+}
+button{
+    background-color: purple;
+    color: thistle;
+    border: none;
+    width: 65px;
+    height: 26px;
+}
+main {
+    display: flex;
+}
+.parteUno {
+    background-color: slategrey;
+    width:30%;
+    height: 450px;
+    color: snow;
+    text-align: center;
+}
+ .parteDos{
+    background-color: black;
+    width: 70%;
+    text-align: center;
+ }
+ .parteDos figure img{
+     width: 100%;
+ }
+ h1{
+     color: blanchedalmond;
+ }
+ footer{
+     height: 100px;
+     background-color: rgb(153, 161, 161);
+     text-align: center;
+
+ }
+ @media screen and (min-width:501px) and (max-width: 800px) {
+    header{
+        background-color: black;
+        color: white;
+    }
+}
